@@ -13,10 +13,15 @@ export const ContextProvider = ({ children }) => {
   const [activeMenu, setActiveMenu] = useState(true);
   const [isClicked, setIsClicked] = useState(initialState);
   const [screenSize, setScreenSize] = useState(undefined);
+
   const handleClick = (clicked) => {
     setIsClicked({ ...initialState, [clicked]: true });
   };
-  
+
+  // const closeNavItem = (clicked) => {
+  //   setIsClicked({ ...initialState, [clicked]: false });
+  // };
+
   const [currentColor, setCurrentColor] = useState("#03C9D7");
   const [currentMode, setCurrentMode] = useState("Light");
   const setMode = (e) => {

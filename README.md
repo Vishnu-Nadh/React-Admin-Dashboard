@@ -7,7 +7,7 @@ This dashboard includes the admin usefull apps such as Calender, Kanban Task man
 
 Website Demo
 
-[dashboard](./demo.gif)
+![dashboard](demo.gif)
 
 ## Tech Stack
 
